@@ -85,7 +85,6 @@ footer{
 .content{
     height: 165px;
     width: 90%;
-    background-color: yellowgreen;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +93,6 @@ footer{
     width: 380px;
     height: 140px;
     display: flex;
-    background-color: blue;
 }
 h3{
     font-size: 16px;
@@ -105,7 +103,6 @@ h3{
 .content .links{
     height: 140px;
     width: 280px;
-    background-color: burlywood;
 }
 .linksHeading{
     font-size: 12px;
