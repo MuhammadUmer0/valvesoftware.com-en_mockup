@@ -22,7 +22,6 @@ header{
 section{
     height: 230px;
     width: 80%;
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -34,7 +33,6 @@ section{
     justify-content: space-between;
 
 }
-
 section h1{
     font-size: 38px;
     line-height: 49px;
@@ -58,13 +56,15 @@ input{
     width: 200px;
 }
 .headingRow{
+    margin: 1em;
     height: 84px;
     width: 80%;
 }
 .headingRow a{
     text-decoration: none;
 }
-.headingRow h1 a:hover{
+h1:hover{
+    transition: .5s;
     color: white;
 }
 h1{
@@ -72,4 +72,38 @@ h1{
     line-height: 84px;
     font-weight: 900;
     color: var(--red);
+    
+}
+footer{
+    height: 190px;
+    width: 100%;
+    background-color: var(--red);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 165px;
+    width: 90%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .col{
+    width: 320px;
+    height: 140px;
+    background-color: blue;
+}
+h3{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: white;
+}
+.content .links{
+    height: 140px;
+    width: 565px;
+    background-color: burlywood;
+
 }
